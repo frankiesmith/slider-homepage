@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  background-color:#222;
+}
+.top-bar {
+  font-family:arial;
+  width:100%;
+  height:75px;
+  background-color:#1d1d1d;
+  opacity:.8;
+  position:fixed;
+  z-index:1000;
+  color:#fff;
+  letter-spacing:3px;
+  font-size:12px;
+}
+
+.logo-wrapper {
+  width:120px;
+  height:75px;
+  position:relative;
+}
+
+.logo {
+  position:absolute;
+  top:15px;
+  width:160px;
+  height:200px;
+  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1270439/imports_logo.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.nav-container {
+  height:100%;
+  padding: 0 25px;
+  max-width:1100px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.main-nav{
+  list-style:none;
+  padding:0;
+}
+.main-nav li{
+  display: inline-block;
+  padding:20px;
+}
+.top-bar a{
+  width:100%;
+  height:100%;
+  color:#fff;
+  text-decoration:none;
+  opacity:.5;
+}
+.top-bar a:hover {
+  opacity:1;
+}
+.cart {
+  border-bottom:2px solid #7d7d7d;
+}
+.cart:hover {
+  border-bottom:2px solid #fff;
+}
+.cart:hover a {
+  opacity:1;
+}
+.container {
+  padding: 0 25px;
+  position:relative;
+  max-width:1100px;
+  margin:auto;
+}
+h1{
+  font-family:arial;
+  margin:0;
+  color:#fff;
+  text-align:right;
+  font-size:3rem;
+  -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+  
+}
+.button-group{
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  position:absolute;
+  right:16px;
+  z-index:100;
+}
+.button{
+  width:37px;
+  height:37px;
+  margin:8px;
+  background-color:#fff;
+  border-radius:50%;
+  opacity:.2;
+ border:3px solid #fff0;
+}
+.frame-wrapper {
+  position:relative;
+  width:100%;
+  height:100vh;
+}
+.frame {
+  width:100%;
+  height:100vh;
+}
+.frame-content{
+/*   padding-top: 75px; */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:100vh;
+}
+/* .one {
+
+.two {
+  background-color:darkmagenta;
+}
+.three {
+  background-color:darksalmon;
+} */
+
+.car {
+  width:auto;
+  height:auto;
+  }
+
+.show {
+  display:block;
+  -webkit-animation: slideInUp 1s;
+    animation: slideInUp 1s;
+}
+.hide {
+  display:none;
+}
+
+.red {
+  background-color:#cc0c11;
+  border:3px solid #fff;
+  opacity:1;
+}
+
+.orange {
+  background-color:#e77800;
+  border:3px solid #fff;
+  opacity:1;
+}
+
+.blue {
+  background-color:#0f3063;
+  border:3px solid #fff;
+  opacity:1;
+}
